@@ -2,15 +2,15 @@
 // Color calculator - http://razorjam.github.io/sasscolourfunctioncalculator/
 // Color names - http://name-of-color.com/
 
-$black:   #000;
+$black: #000;
 $black21: #212121;
 $black27: #2A2827;
 $black4A: #554F4A;
-$white:   #fff;
+$white: #fff;
 $whiteEA: #FAF5EA;
-$gray:    #ccc;
-$yellowD0:#F6E9D0;
-$orange:  #CF7C58;
+$gray: #ccc;
+$yellowD0: #F6E9D0;
+$orange: #CF7C58;
 
 
 $base-font-sans-serif: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
@@ -28,7 +28,9 @@ $font-size-base: 16px !default;
 $line-height-base: 1.2 !default;
 $base-font-family: $base-font-sans-serif !default;
 
-$vertical-rhythm: ($line-height-base * 1em);
+$vertical-rhythm: (
+    $line-height-base * 1em
+);
 
 $base-min-width: 320px;
 
