@@ -10,7 +10,7 @@ htmlFiles.forEach((file) => {
 
 
 export default defineConfig({
-  base: '/vite-deploy-test',
+  base: '/vite-landing-template',
   root: 'src',
   publicDir: '../public',
   plugins: [handlebars({ partialDirectory: resolve(__dirname, "src/templates") })],
