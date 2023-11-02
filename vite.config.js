@@ -14,6 +14,7 @@ export default defineConfig({
   root: 'src',
   publicDir: '../public',
   plugins: [
+    // https://github.com/alexlafroscia/vite-plugin-handlebars/pull/250 templates livereload
     handlebars({ partialDirectory: resolve(__dirname, 'src/templates') }),
   ],
   build: {
